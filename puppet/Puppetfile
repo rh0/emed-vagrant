@@ -5,4 +5,4 @@ mod 'puppetlabs/apache'
 mod 'puppetlabs/mysql'
 mod 'thias/php'
 mod 'willdurand/composer'
-
+mod 'drush', :git => 'git://git.drupal.org/project/puppet-drush.git'

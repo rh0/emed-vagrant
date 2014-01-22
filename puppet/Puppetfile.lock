@@ -13,7 +13,15 @@ FORGE
     willdurand/composer (0.0.6)
       maestrodev/wget (>= 0.0.0)
 
+GIT
+  remote: git://git.drupal.org/project/puppet-drush.git
+  ref: master
+  sha: 63d3fc5e45b1a95eed9cebbd6d83fbecfe56c0c3
+  specs:
+    drush (0.0.1)
+
 DEPENDENCIES
+  drush (>= 0)
   puppetlabs/apache (>= 0)
   puppetlabs/mysql (>= 0)
   puppetlabs/stdlib (>= 0)
